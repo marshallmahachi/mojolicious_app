@@ -1,0 +1,11 @@
+- name: Programming Bootcamp 2021.10
+  students:
+      - name: Foo
+        email: foo@mahachi.com
+      - name: Bar
+        email: bar@mahachi.com
+  excercises:
+    - title: Hello World
+      url: https://placeholder
+    - title: Rectengular
+      url: https://placeholder
