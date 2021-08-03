@@ -1,4 +1,6 @@
 - name: Programming Bootcamp 2021.10
+  id: bootcamp-2021-10
+  url: https://course_url_placeholder_basic
   students:
       - name: Foo
         email: foo@mahachi.com
@@ -8,4 +10,17 @@
     - title: Hello World
       url: https://placeholder
     - title: Rectengular
+      url: https://placeholder
+- name: Advanced Bootcamp 2021.06
+  url: https://course_url_placeholder_advanced
+  id: bootcamp-2021-06
+  students:
+      - name: Advanced Foo
+        email: foo@mahachi.com
+      - name: Advanced Bar
+        email: bar@mahachi.com
+  excercises:
+    - title: Graph Theory
+      url: https://placeholder
+    - title: Dynamic Programming
       url: https://placeholder

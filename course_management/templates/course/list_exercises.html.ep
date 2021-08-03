@@ -1,0 +1,9 @@
+% layout 'default';
+% title 'Course';
+<% use Data::Dumper; %>
+
+<pre>
+  <%= Dumper $course %>
+</pre>
+
+</p>
