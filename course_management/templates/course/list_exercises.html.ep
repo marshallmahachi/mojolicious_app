@@ -1,6 +1,13 @@
 % layout 'default';
-% title 'Course';
+% title $course->{name};
 <% use Data::Dumper; %>
+
+<form method="POST" action="/upload" enctype="multipart/form-data" >
+  <input type="hidden" name="id" value="<%= $course->{id} %>">
+  <input type="file" name="upload">
+  <input type="submit" value="Upload">
+
+</form>
 
 <pre>
   <%= Dumper $course %>
